@@ -40,6 +40,7 @@ public class Problem78_Subsets {
         powerSet.add(new ArrayList<>());
         for(int i = 0; i < nums.length; i++) {
             for(int j = 0; j < (1 << i); j++) {
+                // copying a list takes O(n) time
                 List<Integer> newList = new ArrayList<>(powerSet.get(j));
                 newList.add(nums[i]);
                 powerSet.add(newList);
@@ -57,7 +58,7 @@ public class Problem78_Subsets {
  *          eg. list = [2, 3], n = 2; 00, 01, 10, 11 so 00 means [], 01 means [3], 10 means [2], 11 means [2, 3].
  *          i.e. [[], [2], [3], [2, 3]]
  *
- * Approach 2: Iterative; Time Complexity: O(2^n), Space Complexity: O(2^n)
+ * Approach 2: Iterative; Time Complexity: O(n * 2^n), Space Complexity: O(2^n)
  *      Intuition => Using [1, 2, 3] as an example, the iterative process is like:
  *          1. Initially, one empty subset [[]]
  *          2. Adding 1 to []: [[], [1]];
