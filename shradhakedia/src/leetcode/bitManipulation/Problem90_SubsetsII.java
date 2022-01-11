@@ -2,7 +2,7 @@
  * Author : Sradha Kedia
  * User   : ShradhaKedia
  * Link   : https://leetcode.com/problems/subsets-ii/
- * Difficulty level: Easy
+ * Difficulty level: Medium
  */
 
 package leetcode.bitManipulation;
@@ -29,6 +29,9 @@ public class Problem90_SubsetsII {
                 x >>= 1;
                 indexOfElementToAdd++;
             }
+            // List.contains take O(n) time but here powerSet has further sub-lists so it searches
+            // if sub-list is contained in it by getting the each sub-list and comparing it in O(len(sub_list) for each
+            // => overall complexity to be O(sum of len of all sub-lists) in worst case.
             if(!powerSet.contains(subSet)) {
                 powerSet.add(subSet);
             }
@@ -56,11 +59,11 @@ public class Problem90_SubsetsII {
 }
 
 /**
- * Approach 1: Bit manipulation; Time Complexity: O(n * 2^n + nlog(n)), Space Complexity: O(2^n)
+ * Approach 1: Bit manipulation; Time Complexity: O(sum of all subsets lengths * 2^n + nlog(n)), Space Complexity: O(2^n)
  *      Intuition => Same as Subsets, only the change is; there can be duplicate elements too.
  *          so, we sort the list firstly and while adding subsets to powerSet we check if
  *          that does not exist already in powerSet.
  *
- * Approach 2: Iterative; Time Complexity: O(n * 2^n + nlog(n)), Space Complexity: O(2^n)
+ * Approach 2: Iterative; Time Complexity: O(sum of all subsets lengths * 2^n + nlog(n)), Space Complexity: O(2^n)
  *      similarly for this approach as above and Subsets problem.
  */
