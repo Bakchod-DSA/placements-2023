@@ -4,6 +4,7 @@
  * Link   : https://leetcode.com/problems/integer-replacement/
  * Difficulty level: Medium
  */
+
 package leetcode.bitManipulation;
 
 import java.util.HashMap;
