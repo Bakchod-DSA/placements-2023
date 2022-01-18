@@ -5,15 +5,16 @@
  * Difficulty level: Medium
  */
 
-package leetcode.bitManipulation;
+package leetcode.BitManipulation;
 
 public class Problem1780_SumOfPowerOfThree {
 
     public boolean checkPowersOfThree(int n) {
-        // Approach 1 (bit manipulation)
-        // String baseChanges = Integer.toString(n, 3);
-        // return baseChanges.matches("^[01]+$");
+        // Approach 1 (bit manipulation) regex can also be this "^[01]+$"
+         String baseChanges = Integer.toString(n, 3);
+         return baseChanges.matches("(1(0|1)*)");
 
+        /*
         // Approach 2 (kind of brute force)
         // no need to check for 0, due to constraint
         while(n != 1) {
@@ -28,6 +29,7 @@ public class Problem1780_SumOfPowerOfThree {
             }
         }
         return true;
+        */
     }
 }
 
