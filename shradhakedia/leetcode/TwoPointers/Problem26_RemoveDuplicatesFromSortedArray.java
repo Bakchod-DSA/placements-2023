@@ -11,8 +11,7 @@ public class Problem26_RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
 
-        // Approach: 2 pointers, till we get duplicates we move forward
-        // as we get a new number we put it at kth index and change i to that new num location to check further duplicates
+        // Approach 1: Two Pointers
         int k = 1;
         for(int i = 0, j = 1; j < nums.length; j++) {
             if(nums[i] != nums[j]) {
@@ -23,3 +22,9 @@ public class Problem26_RemoveDuplicatesFromSortedArray {
         return k;
     }
 }
+
+/**
+ * Approach 1: Two Pointers; Time Complexity: O(n), Space Complexity: O(1)
+ *             Intuition: keep on moving forward till duplicates are encountered; as soon as we get a new number,
+ *             we put it at kth index and change i to that new num location to check further duplicates.
+ */
