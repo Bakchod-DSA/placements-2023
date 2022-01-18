@@ -8,9 +8,10 @@
 package leetcode.TwoPointers;
 
 public class Problem2108_FirstPalindromicInArray {
+
+    // Approach 1: Two Pointers
     public String firstPalindrome(String[] words) {
         String palindromic = "";
-        int flag = 0;
 
         for(String isPalindrome : words) {
             int i,j;
@@ -27,3 +28,9 @@ public class Problem2108_FirstPalindromicInArray {
         return palindromic;
     }
 }
+
+/**
+ * Approach 1: Two Pointers; Time Complexity: O(nk) worst case: where n is length of array and k is length of word.
+ *             Space Complexity: O(1)
+ *             Intuition: traverse each word till we get a palindrome, as we get one return.
+ */
