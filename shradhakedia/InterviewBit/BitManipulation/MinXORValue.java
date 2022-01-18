@@ -1,4 +1,4 @@
-package InterviewBit;
+package InterviewBit.BitManipulation;
 
 import java.util.Arrays;
 
