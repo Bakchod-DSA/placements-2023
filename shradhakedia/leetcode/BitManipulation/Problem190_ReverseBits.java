@@ -5,7 +5,7 @@
  * Difficulty level: Easy
  */
 
-package leetcode.bitManipulation;
+package leetcode.BitManipulation;
 
 public class Problem190_ReverseBits {
 
