@@ -5,7 +5,7 @@
  * Difficulty level: Medium
  */
 
-package leetcode.bitManipulation;
+package leetcode.BitManipulation;
 
 public class Problem477_TotalHammingDistance {
 
