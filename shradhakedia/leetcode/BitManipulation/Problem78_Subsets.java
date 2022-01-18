@@ -5,7 +5,7 @@
  * Difficulty level: Medium
  */
 
-package leetcode.bitManipulation;
+package leetcode.BitManipulation;
 
 import java.util.ArrayList;
 import java.util.List;
