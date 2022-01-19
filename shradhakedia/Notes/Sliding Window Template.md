@@ -4,6 +4,7 @@
     // i represents window’s start, j window’s end, increment j at every step
     // “to make window of size k” and then to “slide window once  
     // maintained”
+    int i = 0, j = 0;
     while(j < nums.length) {
         // to reduce complexity to O(n)
         add calculation for j
