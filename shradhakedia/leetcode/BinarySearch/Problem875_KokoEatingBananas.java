@@ -1,3 +1,10 @@
+/**
+ * Author : Sradha Kedia
+ * User   : ShradhaKedia
+ * Link   : https://leetcode.com/problems/koko-eating-bananas/submissions/
+ * Difficulty level : Medium
+ */
+
 package leetcode.BinarySearch;
 
 public class Problem875_KokoEatingBananas {
