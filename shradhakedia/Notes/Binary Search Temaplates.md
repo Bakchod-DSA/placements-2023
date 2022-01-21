@@ -53,13 +53,14 @@
 But if high is the maximum bound of any specific data type then this can cause overflow. So, it’s a good practice to use
 these formulas:
    
-        mid = low + (high - low)/2
-        mid = high - (high - low)/2
+       First: mid = low + (high - low)/2
+       Second: mid = high - (high - low)/2
 
 
 2) now, the above two formulas give different values., for e.g. 
         
-        if low = 1, high = 8 (8 + 1)/2 = 4 (gives overflow)
+        if low = 1, high = 8;
+        basic formula gives, (8 + 1)/2 = 4
         First gives, 1 + (8 - 1)/2 = 4
         Second gives, 8 - (8 - 1)/2 = 5
 
