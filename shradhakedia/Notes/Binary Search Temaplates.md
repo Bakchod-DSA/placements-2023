@@ -89,10 +89,10 @@ these formulas:
         To check existence          low = mid + 1             mid = any formula (1 or 2)
                                     right = mid - 1
         
-        To find lower bound         low = mid                 mid = low + (high - low)/2
+        To find lower bound         low = mid                 mid = high - (high - low)/2
                                     right = mid + 1
         
-        To find upper bound         low = mid - 1             mid = high - (high - low)/2
+        To find upper bound         low = mid - 1             mid = low + (high - low)/2
                                     high = mid
 
 
