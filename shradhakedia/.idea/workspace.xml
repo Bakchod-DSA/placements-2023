@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="064510b9-cbc9-4cee-acb3-8b4080b85695" name="Default Changelist" comment="ShradhaKedia: add leetcode solution 074">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shradhakedia/Notes/Binary Search Temaplates.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/leetcode/TwoPointers/Problem18_4Sum.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="23YvwyJBaT7s6NfWYmK0mDbBlWa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.Problem4_MedianOfTwoSortedArrays">
+    <configuration name="FindMsbOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EPI.BinarySearch.FindMsbOfANumber" />
+      <module name="shradhakedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EPI.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem12_1_FirstOccurrenceOfK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EPI.BinarySearch.Problem12_1_FirstOccurrenceOfK" />
+      <module name="shradhakedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EPI.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem12_2_SearchEntryEqualToIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EPI.BinarySearch.Problem12_2_SearchEntryEqualToIndex" />
+      <module name="shradhakedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EPI.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem209_MinimumSizeSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.SlidingWindow.Problem209_MinimumSizeSubarraySum" />
+      <module name="shradhakedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem4_MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.BinarySearch.Problem4_MedianOfTwoSortedArrays" />
+      <module name="shradhakedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Problem4_MedianOfTwoSortedArrays" />
+        <item itemvalue="Application.FindMsbOfANumber" />
+        <item itemvalue="Application.Problem12_1_FirstOccurrenceOfK" />
+        <item itemvalue="Application.Problem12_2_SearchEntryEqualToIndex" />
+        <item itemvalue="Application.Problem209_MinimumSizeSubarraySum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="064510b9-cbc9-4cee-acb3-8b4080b85695" name="Default Changelist" comment="" />
+      <created>1641924087297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641924087297</updated>
+      <workItem from="1641924093527" duration="631000" />
+      <workItem from="1641924761502" duration="114044000" />
+    </task>
+    <task id="LOCAL-00022" summary="ShradhaKedia: add leetcode solution 3">
+      <created>1642530994374</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1642530994379</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ShradhaKedia: add leetcode solution 11">
+      <created>1642531012757</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531012757</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ShradhaKedia: add leetcode solution 15">
+      <created>1642531024927</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531024927</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ShradhaKedia: add leetcode solution 16">
+      <created>1642531037608</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531037608</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ShradhaKedia: add leetcode solution 18">
+      <created>1642531051239</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531051239</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ShradhaKedia: add leetcode solution 28">
+      <created>1642531064142</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531064142</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ShradhaKedia: add leetcode solution 31">
+      <created>1642531078081</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531078081</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ShradhaKedia: add leetcode solution 75">
+      <created>1642531090386</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531090386</updated>
+    </task>
+    <task id="LOCAL-00030" summary="ShradhaKedia: add leetcode solution 80">
+      <created>1642531101455</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531101455</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ShradhaKedia: add leetcode solution 88">
+      <created>1642531113021</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531113021</updated>
+    </task>
+    <task id="LOCAL-00032" summary="ShradhaKedia: add leetcode solution 151">
+      <created>1642531128706</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531128706</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ShradhaKedia: add leetcode solution 167">
+      <created>1642531140757</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531140757</updated>
+    </task>
+    <task id="LOCAL-00034" summary="ShradhaKedia: add leetcode solution 187">
+      <created>1642531154277</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531154277</updated>
+    </task>
+    <task id="LOCAL-00035" summary="ShradhaKedia: add leetcode solution 219">
+      <created>1642531165740</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531165740</updated>
+    </task>
+    <task id="LOCAL-00036" summary="ShradhaKedia: add leetcode solution 239">
+      <created>1642531177009</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531177009</updated>
+    </task>
+    <task id="LOCAL-00037" summary="ShradhaKedia: add leetcode solution 438">
+      <created>1642531191500</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531191500</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ShradhaKedia: add leetcode solution 349">
+      <created>1642531204397</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531204397</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ShradhaKedia: add leetcode solution 581">
+      <created>1642531216387</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531216387</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ShradhaKedia: add leetcode solution 611">
+      <created>1642531229801</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531229801</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ShradhaKedia: add leetcode solution 643">
+      <created>1642531244765</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1642531244765</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ShradhaKedia: add Sliding Window templates">
+      <created>1642602262159</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1642602262159</updated>
+    </task>
+    <task id="LOCAL-00043" summary="ShradhaKedia: add Binary Search templates">
+      <created>1642602279997</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1642602279997</updated>
+    </task>
+    <task id="LOCAL-00044" summary="ShradhaKedia: modified Sliding Window templates">
+      <created>1642608506843</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1642608506843</updated>
+    </task>
+    <task id="LOCAL-00045" summary="ShradhaKedia: add leetcode solution 209">
+      <created>1642608578543</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1642608578543</updated>
+    </task>
+    <task id="LOCAL-00046" summary="ShradhaKedia: add leetcode solution 76">
+      <created>1642742408372</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1642742408372</updated>
+    </task>
+    <task id="LOCAL-00047" summary="ShradhaKedia: add leetcode solution 875">
+      <created>1642742426811</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1642742426811</updated>
+    </task>
+    <task id="LOCAL-00048" summary="ShradhaKedia: add leetcode solution 162">
+      <created>1642767649104</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1642767649104</updated>
+    </task>
+    <task id="LOCAL-00049" summary="ShradhaKedia: add leetcode solution 278">
+      <created>1642767661737</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1642767661737</updated>
+    </task>
+    <task id="LOCAL-00050" summary="ShradhaKedia: add leetcode solution 35">
+      <created>1642767677352</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1642767677354</updated>
+    </task>
+    <task id="LOCAL-00051" summary="ShradhaKedia: add leetcode solution 69">
+      <created>1642767687499</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1642767687499</updated>
+    </task>
+    <task id="LOCAL-00052" summary="ShradhaKedia: modified leetcode solution 875">
+      <created>1642767706723</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1642767706723</updated>
+    </task>
+    <task id="LOCAL-00053" summary="ShradhaKedia: modified Binary Search template">
+      <created>1642767780011</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1642767780011</updated>
+    </task>
+    <task id="LOCAL-00054" summary="ShradhaKedia: add leetcode solution 34">
+      <created>1642785809161</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1642785809168</updated>
+    </task>
+    <task id="LOCAL-00055" summary="ShradhaKedia: add leetcode solution 74">
+      <created>1642785824179</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1642785824179</updated>
+    </task>
+    <task id="LOCAL-00056" summary="ShradhaKedia: add leetcode solution 287">
+      <created>1643294098518</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294098518</updated>
+    </task>
+    <task id="LOCAL-00057" summary="ShradhaKedia: add leetcode solution 275">
+      <created>1643294112453</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294112453</updated>
+    </task>
+    <task id="LOCAL-00058" summary="ShradhaKedia: add leetcode solution 240">
+      <created>1643294123276</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294123276</updated>
+    </task>
+    <task id="LOCAL-00059" summary="ShradhaKedia: add leetcode solution 215">
+      <created>1643294134958</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294134958</updated>
+    </task>
+    <task id="LOCAL-00060" summary="ShradhaKedia: add leetcode solution 154">
+      <created>1643294144696</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294144696</updated>
+    </task>
+    <task id="LOCAL-00061" summary="ShradhaKedia: add leetcode solution 153">
+      <created>1643294154424</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294154424</updated>
+    </task>
+    <task id="LOCAL-00062" summary="ShradhaKedia: add leetcode solution 033">
+      <created>1643294167315</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294167315</updated>
+    </task>
+    <task id="LOCAL-00063" summary="ShradhaKedia: add EPI solution 12.2">
+      <created>1643294185899</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294185899</updated>
+    </task>
+    <task id="LOCAL-00064" summary="ShradhaKedia: add EPI solution 12.1">
+      <created>1643294197638</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294197638</updated>
+    </task>
+    <task id="LOCAL-00065" summary="ShradhaKedia: add leetcode solution 004">
+      <created>1643294214526</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294214526</updated>
+    </task>
+    <task id="LOCAL-00066" summary="ShradhaKedia: add msb of a number solution">
+      <created>1643294240306</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294240306</updated>
+    </task>
+    <task id="LOCAL-00067" summary="ShradhaKedia: modified Binary Search Temaplates">
+      <created>1643294329202</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294329202</updated>
+    </task>
+    <task id="LOCAL-00068" summary="ShradhaKedia: add leetcode solution 081">
+      <created>1643294356954</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294356954</updated>
+    </task>
+    <task id="LOCAL-00069" summary="ShradhaKedia: modified Binary Search Template">
+      <created>1643294440068</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294440068</updated>
+    </task>
+    <task id="LOCAL-00070" summary="ShradhaKedia: add leetcode solution 074">
+      <created>1643294470519</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1643294470519</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ShradhaKedia: add leetcode solution 76" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 875" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 162" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 278" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 35" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 69" />
+    <MESSAGE value="ShradhaKedia: modified leetcode solution 875" />
+    <MESSAGE value="ShradhaKedia: modified Binary Search template" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 34" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 74" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 287" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 275" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 240" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 215" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 154" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 153" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 033" />
+    <MESSAGE value="ShradhaKedia: add EPI solution 12.2" />
+    <MESSAGE value="ShradhaKedia: add EPI solution 12.1" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 004" />
+    <MESSAGE value="ShradhaKedia: add msb of a number solution" />
+    <MESSAGE value="ShradhaKedia: modified Binary Search Temaplates" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 081" />
+    <MESSAGE value="ShradhaKedia: modified Binary Search Template" />
+    <MESSAGE value="ShradhaKedia: add leetcode solution 074" />
+    <option name="LAST_COMMIT_MESSAGE" value="ShradhaKedia: add leetcode solution 074" />
+  </component>
+</project>
