@@ -48,4 +48,27 @@ public class Problem74_SearchIn2DMatrix {
 
         return false;
     }
+
+    private boolean approachTwo(int[][] matrix, int target) {
+        // Approach 2: Binary Search;
+        // Time Complexity: O(log (m * n)), Space Complexity: O(1)
+        int low = 0;
+        int high = matrix.length * matrix[0].length - 1;
+
+        while(low <= high) {
+            int mid = low + ((high - low) >> 1);
+            int row = mid / matrix[0].length;
+            int col = mid % matrix[0].length;
+            int midVal = matrix[row][col];
+
+            if(midVal < target) {
+                low = mid + 1;
+            } else if(midVal == target) {
+                return true;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return false;
+    }
 }
