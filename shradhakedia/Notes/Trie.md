@@ -1,4 +1,4 @@
-#Trie (Prefix Tree)
+# Trie (Prefix Tree)
 
 ## Introduction
 - Trie is an efficient Data structure to use when taking about Strings. Its application are dictionary, spell check, Auto 
