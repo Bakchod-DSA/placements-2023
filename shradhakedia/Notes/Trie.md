@@ -71,7 +71,7 @@
                 TrieNode crawl = root;
 
                 for(int i = 0; i < key.length(); i++) {
-                    char ch = key.charAt();
+                    char ch = key.charAt(i);
                     if(crawl.children[ch - 'a'] == null) {
                         crawl.children[ch - 'a'] = new TrieNode();
                     }
@@ -84,7 +84,7 @@
                 TrieNode crawl = root;
 
                 for(int i = 0; i < key.length(); i++) {
-                    char ch = key.charAt();
+                    char ch = key.charAt(i);
                     if(crawl.children[ch - 'a'] == null) {
                         return false;
                     }
@@ -97,7 +97,7 @@
                 TrieNode crawl = root;
 
                 for(int i = 0; i < prefix.length(); i++) {
-                    char ch = prefix.charAt();
+                    char ch = prefix.charAt(i);
                     if(crawl.children[ch - 'a'] == null) {
                         return false;
                     }
