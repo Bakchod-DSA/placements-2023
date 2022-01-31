@@ -142,4 +142,37 @@ public class Problem287_FindTheDuplicateNumber {
         }
         return low;
     }
+
+    private int approachSix(int[] nums) {
+        /*  Approach: Floyd's Tortoise and Hare (Cycle Detection)
+            Time Complexity: O(n)
+            Space Complexity: O(1)
+            Intuition: We keep two pointers, slow(tortoise) and fast(hare) and move slow one step at a time.
+                       Move fast two steps at a time, if no cycle hare wins the race by reaching null. else if there is
+                       a cycle hare enters it first, keeps on revolving it.
+                       tortoise enters it later but the hare catches the tortoise at a certain point in the cycle
+                       (this is the meeting/intersection point is which may not be the entry point of cycle) so, we give
+                       tortoise another chance by setting to first node again and move hare also one step now.
+                       and now as they meet it is guaranteed to be the entry point of the cycle. Its a famous problem of
+                       cycle detection in Linked List(Floyd's Tortoise and Hare, Cycle Detection).
+        */
+
+        int tortoise = nums[0], hare = nums[0];
+
+        // Find the intersection point of the two runners.
+        do {
+            tortoise = nums[tortoise];
+            hare = nums[nums[hare]];
+        } while(tortoise != hare);
+
+        // Find the "entrance" to the cycle.
+        tortoise = nums[0];
+        while(tortoise != hare) {
+            tortoise = nums[tortoise];
+            hare = nums[hare];
+        }
+
+        return tortoise;
+    }
+
 }
