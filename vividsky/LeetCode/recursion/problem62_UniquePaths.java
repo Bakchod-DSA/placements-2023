@@ -6,8 +6,25 @@ package LeetCode.recursion;
  * Difficulty level : Medium
  */
 public class problem62_UniquePaths {
+    int[][] cache;
     public int uniquePaths(int m, int n) {
-        return approachTwo(m, n);
+        cache = new int[m + 1][n + 1];
+        // return approachTwo(m, n);
+        return approachThree(m, n);
+    }
+
+    private int approachThree(int m, int n) {
+        if (cache[m][n] != 0)
+            return cache[m][n];
+
+        if (m == 1 || n == 1) {
+            cache[m][n] = 1;
+            return 1;
+        }
+
+        cache[m][n] = approachThree(m - 1, n) + approachThree(m, n - 1);
+
+        return cache[m][n];
     }
 
     private int approachOne(int m, int n) {
@@ -51,4 +68,5 @@ public class problem62_UniquePaths {
         }
         return (int)result;
     }
+
 }
