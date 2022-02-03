@@ -1,5 +1,10 @@
 package LeetCode.recursion;
-
+/**
+ * Author : Nidhi Sangwan
+ * User   : vividSky
+ * Link   : https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+ * Difficulty level : Easy
+ */
 public class problem1979_FindGreatestCommonDivisorOfArray {
     public int findGCD(int[] nums) {
 
