@@ -11,3 +11,4 @@
 
 * **Integer.highestOneBit(x)** -> return int with all bit cleared except the most significant set bit
 * **Integer.lowestOneBit(x)** -> return int with all bit cleared except the least significant set bit
+* **Math.round(double x)** -> return nearest long value of x
