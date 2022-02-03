@@ -1,4 +1,4 @@
-package LeetCode.dyamicProgramming;
+package LeetCode.recursion;
 /**
  * Author : Nidhi Sangwan
  * User   : vividSky
