@@ -1,5 +1,10 @@
 package LeetCode.trie;
-
+/**
+ * Author : Nidhi Sangwan
+ * User   : vividSky
+ * Link   : https://leetcode.com/problems/implement-trie-prefix-tree/
+ * Difficulty level : Medium
+ */
 class TrieNode {
 
     private final int R = 26;
