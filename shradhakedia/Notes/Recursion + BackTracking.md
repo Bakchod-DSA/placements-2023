@@ -109,4 +109,5 @@ We put certain conditions to skip repeated elements, but use them too when requi
     }  
 
 
-## [General Templates for all this questions and approaches] (https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning )
+## General Templates for all this questions and approaches:
+https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning
