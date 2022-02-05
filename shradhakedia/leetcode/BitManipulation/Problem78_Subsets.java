@@ -7,8 +7,7 @@
 
 package leetcode.BitManipulation;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Problem78_Subsets {
     public List<List<Integer>> subsets(int[] nums) {
@@ -48,6 +47,33 @@ public class Problem78_Subsets {
         }
         return powerSet;
          */
+
+        // return approachThree(nums, start);
+    }
+
+    private List<List<Integer>> approachThree(int[] nums, int start) {
+        // Approach 3: Recursion
+
+        if(start == nums.length - 1) {
+            List<List<Integer>> baseList = new ArrayList<>();
+            baseList.add(new ArrayList<>());
+            baseList.add(new ArrayList<>(Arrays.asList(nums[start])));
+            return baseList;
+        }
+
+        List<List<Integer>> recurList = approachThree(nums, start + 1);
+        List<List<Integer>> myList = new ArrayList<>();
+        for(List<Integer> sublist : recurList) {
+            myList.add(sublist);
+
+            List<Integer> temp = new ArrayList<>();
+            temp.add(nums[start]);
+            temp.addAll(sublist);
+
+            myList.add(temp);
+        }
+
+        return myList;
     }
 }
 
