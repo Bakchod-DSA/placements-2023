@@ -1,3 +1,5 @@
+package EPI.BitManipulation;
+
 public class IsDigitPalindrome {
     public static void main(String[] args) {
         System.out.println(isDigitPalindromeApproachTwo(-34));

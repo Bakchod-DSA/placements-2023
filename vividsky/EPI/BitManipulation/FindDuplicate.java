@@ -1,3 +1,5 @@
+package EPI.BitManipulation;
+
 public class FindDuplicate {
     public static void main(String[] args) {
         int[] nums = new int[] {1,2,4,6,7,2,5,5};
