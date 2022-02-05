@@ -5,14 +5,16 @@
  * Difficulty level: Medium
  */
 
-package leetcode.BitManipulation;
+package leetcode.Backtracking;
 
 import java.util.*;
 
-public class Problem78_Subsets {
+public class Problem78_SubSets {
+
     public List<List<Integer>> subsets(int[] nums) {
 
-        // Approach 1: Bit manipulation
+        /*
+        // Approach 1:
         List<List<Integer>> powerSet = new ArrayList<>();
 
         for(int i = 0; i < (1 << nums.length); i++) {
@@ -32,6 +34,7 @@ public class Problem78_Subsets {
         }
 
         return powerSet;
+        */
 
         /*
         // Approach 2: iterative
@@ -39,16 +42,22 @@ public class Problem78_Subsets {
         powerSet.add(new ArrayList<>());
         for(int i = 0; i < nums.length; i++) {
             for(int j = 0; j < (1 << i); j++) {
-                // copying a list takes O(n) time
                 List<Integer> newList = new ArrayList<>(powerSet.get(j));
                 newList.add(nums[i]);
                 powerSet.add(newList);
             }
         }
         return powerSet;
-         */
+        */
 
-        // return approachThree(nums, start);
+        // return approachThree(nums, 0);
+
+        List<List<Integer>> list = new ArrayList<>();
+        List<Integer> tempList = new ArrayList<>();
+
+        approachFour(list, tempList, nums, -1);
+        return list;
+
     }
 
     private List<List<Integer>> approachThree(int[] nums, int start) {
@@ -75,19 +84,22 @@ public class Problem78_Subsets {
 
         return myList;
     }
-}
 
-/**
- * Approach 1: Bit manipulation; Time Complexity: O(2^n), Space Complexity: O(2^n)
- *      Intuition => We can think it in this way that every binary representation of n bits no. is unique 2^n elements
- *          and can be used to represent each possible subsets.
- *          eg. list = [2, 3], n = 2; 00, 01, 10, 11 so 00 means [], 01 means [3], 10 means [2], 11 means [2, 3].
- *          i.e. [[], [2], [3], [2, 3]]
- *
- * Approach 2: Iterative; Time Complexity: O(n * 2^n), Space Complexity: O(2^n)
- *      Intuition => Using [1, 2, 3] as an example, the iterative process is like:
- *          1. Initially, one empty subset [[]]
- *          2. Adding 1 to []: [[], [1]];
- *          3. Adding 2 to [] and [1]: [[], [1], [2], [1, 2]];
- *          4. Adding 3 to [], [1], [2] and [1, 2]: [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
- */
+    private void approachFour(List<List<Integer>> list, List<Integer> tempList, int[] nums, int lastUsed) {
+        /*  Time complexity:  O(n * 2 ^ n) to generate all subsets and then copy them into output list.
+            Space complexity: O(n),  n is depth of the tree.
+            Note: for space complexity analysis, we do not count space that is only used for the purpose of returning output,
+                  so the output array is ignored.
+        */
+
+        list.add(new ArrayList<>(tempList));
+
+        for(int i = lastUsed + 1; i < nums.length; i++) {
+            tempList.add(nums[i]);
+            approachFour(list, tempList, nums, i);
+            tempList.remove(tempList.size() - 1);
+
+        }
+    }
+
+}

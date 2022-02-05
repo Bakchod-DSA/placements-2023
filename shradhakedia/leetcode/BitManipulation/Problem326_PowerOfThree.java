@@ -9,10 +9,34 @@ package leetcode.BitManipulation;
 
 public class Problem326_PowerOfThree {
 
-    public static boolean isPowerOfThree(int n) {
-        // Approach 3: bit manipulation
+    public boolean isPowerOfThree(int n) {
+
+        // return approachOne(n);
+        return approachFour(n);
+    }
+
+    private boolean approachOne(int n) {
+        /*  Approach: Bit Manipulation
+            Time Complexity: O(log(base 3) n), to convert n to base 3
+        */
+
         String baseChanges = Integer.toString(n, 3);
         return baseChanges.matches("^10*$");
+    }
+
+    private boolean approachFour(int n) {
+        /*  Approach: Recursion
+            Time Complexity: T(n) = T(n/3); O(n)
+        */
+
+        if(n == 1) {
+            return true;
+        }
+        if(n % 3 != 0 || n <= 0) {
+            return false;
+        }
+
+        return approachFour(n/3);
     }
 }
 

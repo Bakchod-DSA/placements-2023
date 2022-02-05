@@ -59,7 +59,7 @@ these formulas:
 
 2) now, the above two formulas give different values., for e.g. 
         
-        if low = 1, high = 8 (8 + 1)/2 = 4 (gives overflow)
+        if low = 1, high = 8 (8 + 1)/2 = 4
         First gives, 1 + (8 - 1)/2 = 4
         Second gives, 8 - (8 - 1)/2 = 5
 
@@ -77,7 +77,7 @@ these formulas:
 
 5) Similarly, when we calculate the ub, using mid = r - (r - l)/ 2 can lead to infinite loop, as we want to avoid r = mid.
    But, here we need this, as mid > target implies mid is a candidate for ub, so r = mid, 
-   So here, we select our mid as, r - (r - l)/ 2.
+   So here, we select our mid as, l + (r - l)/ 2.
    
 ### Note:
     While checking for the existence of an element, use any of these formulas but put low = mid + 1,high = mid - 1. 
