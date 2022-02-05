@@ -1,4 +1,4 @@
-package LeetCode.backtracking;
+package LeetCode.recursion;
 /**
  * Author : Nidhi Sangwan
  * User   : vividSky
