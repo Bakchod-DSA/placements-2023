@@ -30,3 +30,20 @@ The second characteristic
 that is common in DP problems is that future "decisions" depend on earlier decisions. 
 Deciding to do something at one-step may affect the ability to do something in a later step
 This is the characteristics where greedy algorithms fails.
+
+
+**Kadane Algorithm**
+
+This algorithm is used to solve maximum subarray problems
+It scans the given array A[1 ... n] from left to right. 
+In the jth step, it computes the subarray with the largest sum ending at j, maintained in variable _current_sum._
+Moreover, it computes the subarray with the largest sum anywhere in A[1 ... j], maintained in variable _best_sum_
+
+`def max_subarray(numbers):
+        """Find the largest sum of any contiguous subarray."""
+        best_sum = 0
+        current_sum = 0
+        for x in numbers:
+                current_sum = max(0, current_sum + x)
+                best_sum = max(best_sum, current_sum)
+        return best_sum`
