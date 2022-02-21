@@ -75,11 +75,12 @@ public class Problem378_KthSmallestElementInSortedMatrix {
 
     private int approachThree(int[][] matrix, int k) {
         /*  Approach:   Priority Queue(min Heap)
-            Time Complexity:    O(min(rows,k) * logk))
-            Space Complexity:   O(k)
+            Time Complexity:    O(min(rows,k)log(min(rows, k) + klog(min(rows, k)) )
+            Space Complexity:   O(min(rows,k))
             Intuition:  Add all the row's first element. In min heap all the elements will be sorted.
                         now, when we run loop k times and pop root(current smallest) element. and add the
-                        same row element but column + 1. it will again be sorted accordingly. and like this                           as we reach kth iteration, the kth element is popped and we return that ans.
+                        same row element but column + 1. it will again be sorted accordingly. and like this
+                        as we reach kth iteration, the kth element is popped and we return that ans.
         */
 
         int m = matrix.length;
