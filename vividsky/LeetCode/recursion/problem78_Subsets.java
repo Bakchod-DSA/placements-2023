@@ -8,18 +8,57 @@ package LeetCode.recursion;
 public class problem78_Subsets {
 
     public List<List<Integer>> subsets(int[] nums) {
-        return recursiveApproach(nums, 0);
-        // return result;
+        List<List<Integer>> result = new ArrayList<>();
+        approachThree(result, nums, 0, new LinkedList<Integer>());
+        // return recursiveApproach(nums, 0);
+        return result;
     }
 
-    private List<List<Integer>> recursiveApproach(int[] nums, int i) {
+
+    private void approachFour( List<List<Integer>> result,
+                               int[] nums,
+                               int idx,
+                               LinkedList<Integer> ans) {
+
+        result.add(new LinkedList<>(ans));
+
+        for (int i = idx; i < nums.length; i++) {
+            ans.addLast(nums[i]);
+            backtrackingApproach(result, nums, i + 1, ans);
+            ans.removeLast();
+        }
+
+    }
+
+    private void approachThree(List<List<Integer>> result,
+                               int[] nums,
+                               int idx,
+                               LinkedList<Integer> ans) {
+
+        if (idx == nums.length) {
+            result.add(new LinkedList<>(ans));
+            return;
+        }
+
+        ans.addLast(nums[idx]);
+        backtrackingApproach(result, nums, idx + 1, ans);
+        ans.removeLast();
+        backtrackingApproach(result, nums, idx + 1, ans);
+
+    }
+
+    private List<List<Integer>> approachTwo(int[] nums,
+                                            int i) {
+
         if (i == nums.length) {
             List<List<Integer>> result = new ArrayList<>();
             result.add(new ArrayList<>());
             return result;
         }
+
         List<List<Integer>> result = recursiveApproach(nums, i + 1);
         List<List<Integer>> temp = new ArrayList<>();
+
         for (List<Integer> ele: result) {
             List<Integer> subset = new ArrayList<>(ele);
             subset.add(nums[i]);
@@ -29,7 +68,9 @@ public class problem78_Subsets {
         return result;
     }
 
-    private List<List<Integer>> bitApproach(int[] nums) {
+
+
+    private List<List<Integer>> approachOne(int[] nums) {
         List<List<Integer>> powerSet = new ArrayList<>();
         for (int i = 0; i < (1 << nums.length); i++) {
             List<Integer> subset = new ArrayList<>();
