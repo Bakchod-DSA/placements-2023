@@ -6,11 +6,11 @@
  * Discuss: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/1322101/C%2B%2BJavaPython-MaxHeap-MinHeap-Binary-Search-Picture-Explain-Clean-and-Concise
  */
 
-package leetcode.BinarySearch;
+package leetcode.Heap;
 
 import java.util.*;
 
-public class Problem378_KthSmallestElementInSortedMatrix {
+public class Problem378__KthSmallestElementInSortedMatrix__ {
 
     public int kthSmallest(int[][] matrix, int k) {
 
