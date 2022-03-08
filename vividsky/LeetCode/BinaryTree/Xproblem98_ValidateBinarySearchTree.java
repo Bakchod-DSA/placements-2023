@@ -5,7 +5,7 @@ package LeetCode.BinaryTree;
  * Link   : https://leetcode.com/problems/validate-binary-search-tree/
  * Difficulty level : Medium
  */
-public class problem98_ValidateBinarySearchTree {
+public class Xproblem98_ValidateBinarySearchTree {
     TreeNode prev;
     public boolean isValidBST(TreeNode root) {
         prev = null;
