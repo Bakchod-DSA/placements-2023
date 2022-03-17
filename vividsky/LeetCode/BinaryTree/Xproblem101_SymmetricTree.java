@@ -1,5 +1,10 @@
 package LeetCode.BinaryTree;
-
+/**
+ * Author : Nidhi Sangwan
+ * User   : vividSky
+ * Link   : https://leetcode.com/problems/symmetric-tree/
+ * Difficulty level : Medium
+ */
 public class Xproblem101_SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         return approachTwo(root);
