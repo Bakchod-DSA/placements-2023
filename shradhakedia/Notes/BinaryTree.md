@@ -1,4 +1,4 @@
-#Binary Tree
+# Binary Tree
 
 Binary Tree is a data structure of the form of a tree which consists of a node as the root and further its children 
 left and right represented as nodes again.
@@ -32,7 +32,7 @@ left and right represented as nodes again.
 3. Linked List
 4. Dequeue 
 
-##Point to remember
+## Point to remember
 A question on tree can be solved using anyone of these four traversals based on the requirement including the 
 data structures suggested above. when approaching a question based on binary tree, firstly think which traversal will 
 give me the answer and then use that template accordingly.
