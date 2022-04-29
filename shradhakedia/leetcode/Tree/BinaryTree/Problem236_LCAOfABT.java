@@ -221,4 +221,67 @@ public class Problem236_LCAOfABT {
     }
     */
 
+    private TreeNode approachFive(TreeNode root, TreeNode p, TreeNode q) {
+        /*  Approach: same as approach3, this is bfs instead of dfs. Iterative using parent pointers
+            Time Complexity: O(2n)
+            Space Complexity: O(3n), worst case. otherwise, its the height of the tree space used by the stack, map, set.
+        */
+
+        Map<TreeNode, TreeNode> parent = new HashMap<>();
+        parent.put(root, null);
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        int level = 0, plevel = 0, qlevel = 0, c = 0;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                TreeNode node = queue.remove();
+                if(node.val == p.val) {
+                    plevel = level;
+                    c++;
+                }
+                if(node.val == q.val) {
+                    qlevel = level;
+                    c++;
+                }
+                if(node.left != null) {
+                    parent.put(node.left, node);
+                    queue.add(node.left);
+                }
+                if(node.right != null) {
+                    parent.put(node.right, node);
+                    queue.add(node.right);
+                }
+            }
+            level++;
+            if(c == 2) {
+                break;
+            }
+        }
+
+        return lca(parent, p, q, plevel, qlevel);
+    }
+
+    private TreeNode lca(Map<TreeNode, TreeNode> parent, TreeNode p, TreeNode q, int plevel, int qlevel) {
+        int d = 0;
+        d = plevel - qlevel;
+        if(d < 0) {
+            return lca(parent, q, p, qlevel, plevel);
+        }
+
+        while(d > 0) {
+            p = parent.get(p);
+            d--;
+        }
+
+        while(p.val != q.val) {
+            p = parent.get(p);
+            q = parent.get(q);
+        }
+
+        return p;
+    }
+
 }
