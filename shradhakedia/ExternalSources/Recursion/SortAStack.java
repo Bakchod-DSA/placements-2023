@@ -4,7 +4,7 @@
  * Difficulty level : Easy
  */
 
-package CodingBlocks_plus_AdityaVermaSheet.Recursion;
+package ExternalSources.Recursion;
 
 import java.util.Stack;
 

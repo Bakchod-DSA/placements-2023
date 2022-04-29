@@ -4,7 +4,7 @@
  * Difficulty level : Medium
  */
 
-package CodingBlocks_plus_AdityaVermaSheet.Recursion;
+package ExternalSources.Recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

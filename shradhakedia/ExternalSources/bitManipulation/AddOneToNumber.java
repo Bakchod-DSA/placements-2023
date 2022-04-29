@@ -3,7 +3,7 @@
  * Problem   : given n, return n + 1; without using arithmetic operator
  */
 
-package CodingBlocks_plus_AdityaVermaSheet.bitManipulation;
+package ExternalSources.bitManipulation;
 
 public class AddOneToNumber {
 

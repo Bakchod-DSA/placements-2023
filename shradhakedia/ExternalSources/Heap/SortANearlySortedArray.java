@@ -1,4 +1,4 @@
-package CodingBlocks_plus_AdityaVermaSheet.Heap;
+package ExternalSources.Heap;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

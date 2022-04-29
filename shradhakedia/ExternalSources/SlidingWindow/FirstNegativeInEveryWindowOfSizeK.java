@@ -4,7 +4,7 @@
  * Difficulty level : Easy
  */
 
-package GFG.SlidingWindow;
+package ExternalSources.SlidingWindow;
 
 import java.util.*;
 
