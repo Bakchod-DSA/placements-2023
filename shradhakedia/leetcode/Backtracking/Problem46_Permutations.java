@@ -30,7 +30,7 @@ public class Problem46_Permutations {
     private List<List<Integer>> approachOne(int[] nums, int start) {
         /*  Approach: Recursion
             Time Complexity:  O(n * (n - 1)! * n) where n is no. of recursive calls, (n - 1)! for traversing the result list
-                              returned by the previous calls and n for travering its sublist.
+                              returned by the previous calls and n for traversing its sublist.
             Space Complexity: O(n * (n - 1)! * n! * n) where n is depth of tree, (n - 1)! is space taken by recurList and n! for
                               myList ans n for temp list.
 
