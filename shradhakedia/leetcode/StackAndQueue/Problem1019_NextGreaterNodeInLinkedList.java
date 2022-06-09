@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/next-greater-node-in-linked-list/
  * Difficulty level: Medium
  */
-package leetcode.Stacks;
+package leetcode.StackAndQueue;
 
 import java.util.Deque;
 import java.util.LinkedList;
