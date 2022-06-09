@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/asteroid-collision/
  * Difficulty level: Medium
  */
-package leetcode.Stacks;
+package leetcode.StackAndQueue;
 
 import java.util.Deque;
 import java.util.LinkedList;
