@@ -1,7 +1,7 @@
 /**
  * Author : Sradha Kedia
  * User   : ShradhaKedia
- * Link   : https://leetcode.com/problems/palindrome-linked-list/
+ * Link   : https://leetcode.com/problems/find-the-winner-of-the-circular-game/
  * Difficulty level: Medium
  */
 package leetcode.StackAndQueue;
