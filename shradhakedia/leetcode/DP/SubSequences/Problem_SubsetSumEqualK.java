@@ -4,7 +4,7 @@
  * Link   : https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954
  * Difficulty level: Medium
  */
-package ExternalSources.DP;
+package leetcode.DP.SubSequences;
 
 import java.util.Arrays;
 

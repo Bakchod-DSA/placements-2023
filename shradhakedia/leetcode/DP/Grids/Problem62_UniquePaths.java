@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/unique-paths/
  * Difficulty level: Medium
  */
-package leetcode.DP;
+package leetcode.DP.Grids;
 
 public class Problem62_UniquePaths {
     public int uniquePaths(int m, int n) {

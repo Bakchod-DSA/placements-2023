@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/triangle/
  * Difficulty level: Medium
  */
-package leetcode.DP;
+package leetcode.DP.Grids;
 
 import java.util.*;
 

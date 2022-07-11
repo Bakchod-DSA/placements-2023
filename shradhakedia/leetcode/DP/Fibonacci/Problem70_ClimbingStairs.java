@@ -5,7 +5,7 @@
  * Difficulty level: Medium
  */
 
-package leetcode.DP;
+package leetcode.DP.Fibonacci;
 
 import java.util.*;
 

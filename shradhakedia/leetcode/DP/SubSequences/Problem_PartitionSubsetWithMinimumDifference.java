@@ -4,7 +4,7 @@
  * Link   : https://www.codingninjas.com/codestudio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
  * Difficulty level: Medium
  */
-package ExternalSources.DP;
+package leetcode.DP.SubSequences;
 
 public class Problem_PartitionSubsetWithMinimumDifference {
     public static int minSubsetSumDifference(int[] arr, int n) {

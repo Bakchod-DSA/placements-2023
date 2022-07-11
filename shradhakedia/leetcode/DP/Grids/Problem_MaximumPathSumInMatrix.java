@@ -5,7 +5,7 @@
  * Difficulty level: Medium
  */
 
-package ExternalSources.DP;
+package leetcode.DP.Grids;
 
 public class Problem_MaximumPathSumInMatrix {
     public static int getMaxPathSum(int[][] matrix) {

@@ -4,7 +4,7 @@
  * Link   : https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003
  * Difficulty level: Medium
  */
-package ExternalSources.DP;
+package leetcode.DP.Grids;
 
 public class Problem_NinjaTraining {
     public static int ninjaTraining(int n, int points[][]) {

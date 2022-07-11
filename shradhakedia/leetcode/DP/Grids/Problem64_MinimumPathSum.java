@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/minimum-path-sum/
  * Difficulty level: Medium
  */
-package leetcode.DP;
+package leetcode.DP.Grids;
 
 public class Problem64_MinimumPathSum {
     public int minPathSum(int[][] grid) {

@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/house-robber-ii/
  * Difficulty level: Medium
  */
-package leetcode.DP;
+package leetcode.DP.Fibonacci;
 
 import java.util.Arrays;
 

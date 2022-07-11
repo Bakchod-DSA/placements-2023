@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/unique-paths-ii/
  * Difficulty level: Medium
  */
-package leetcode.DP;
+package leetcode.DP.Grids;
 
 public class Problem63_UniquePathsII {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {

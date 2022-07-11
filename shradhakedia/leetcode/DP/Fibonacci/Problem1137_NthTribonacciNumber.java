@@ -5,7 +5,7 @@
  * Difficulty level: Medium
  */
 
-package leetcode.DP;
+package leetcode.DP.Fibonacci;
 
 public class Problem1137_NthTribonacciNumber {
 

@@ -4,7 +4,7 @@
  * Link   : https://leetcode.com/problems/partition-equal-subset-sum/
  * Difficulty level: Medium
  */
-package leetcode.DP;
+package leetcode.DP.SubSequences;
 
 import java.util.Arrays;
 
